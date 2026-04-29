@@ -1,0 +1,23 @@
+# Deploy-only repo hygiene (Coolify/GitHub Pages)
+
+# Not needed for deployment
+/junk/
+/tools/
+/memory-bank/
+
+# Unused duplicate mirror roots (assets are served from /vendor/)
+/static.parastorage.com/
+/static.wixstatic.com/
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+
+# Logs/caches
+*.log
+*.tmp
+*.bak
+*.old
+*.orig
+*.swp
+
